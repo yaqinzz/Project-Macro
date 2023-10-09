@@ -1,0 +1,291 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+/* Navbar section */
+
+.navbar {
+  background: #ffffff;
+  z-index: 3;
+}
+* {
+  z-index: 2;
+}
+.img-accsent {
+  z-index: 1;
+}
+.img-hero {
+  z-index: 1;
+}
+.navlink {
+  font-size: 16px;
+}
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-secondary {
+  height: 40px;
+  width: 133px;
+  background-color: #d6a62e;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+.button-secondary:hover {
+  color: #ffffff;
+}
+.button-primary {
+  height: 40px;
+  width: 133px;
+  background-color: transparent;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  color: #d6a62e;
+  text-decoration: none;
+}
+.button-primary:hover {
+  color: #d6a62e;
+}
+
+/* Hero section */
+#Dasboard {
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+}
+.cta {
+  font-weight: 700;
+  margin-top: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 25px 3rem;
+  font-size: 16px;
+  color: #fff;
+  background-color: #d6a62e;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+.cta:hover {
+  color: #ffffff;
+}
+.img-hero {
+  /* height: 100%; */
+  margin-right: 75px;
+}
+
+.hero-tagline h1 {
+  color: #d6a62e;
+  font-weight: 700;
+  font-size: 50;
+  line-height: 72px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.hero-tagline p {
+  font-size: 16px;
+  color: #000000;
+  line-height: 30px;
+  width: 500px;
+  text-align: justify;
+}
+
+.hero-tagline span {
+  font-weight: 700;
+  color: #d6a62e;
+}
+.hero-tagline a img {
+  margin-top: 20px;
+}
+
+/* service section */
+#service {
+  padding: 100px 0;
+  background-color: #e5f2fb;
+}
+.service h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #048853;
+}
+span.sub-title {
+  font-size: 16px;
+}
+
+.card-service {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background: linear-gradient(160deg, #048853, #413d3d);
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+.card-service a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.card-service h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.card-service p {
+  color: #fff;
+  font-size: 14px;
+}
+.part {
+  margin-bottom: 35px;
+}
+
+/* misi */
+
+#misi {
+  background-color: #ba912b;
+  padding: 100px 0 0 0;
+}
+.misi h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.misi .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 70px;
+  color: #000000;
+}
+.content {
+  margin-top: 70px;
+  padding-bottom: 10px;
+}
+.card-misi p {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 50px;
+  color: #000000;
+}
+
+/* Tentang Kami  */
+#tentang-kami {
+  padding: 100px 0 100px 0;
+  background-color: #e5f2fb;
+}
+
+.tentang-kami h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #048853;
+  padding-bottom: 20px;
+}
+.tentang-kami p {
+  font-size: 24px;
+  text-align: justify;
+  text-indent: 50px;
+  line-height: 30px;
+  padding: 0 10px 0 10px;
+}
+
+/* kontak  */
+
+#kontak-kami {
+  background-color: #30af7c;
+  padding: 100px 0;
+}
+
+.kontak-kami h3 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+#kontak-kami h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.kontak a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 18px;
+  width: 330px;
+  display: inline-block;
+}
+
+.link-petani-gaul {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.link-petani-gaul:hover {
+  color: #ffffff;
+}
+.card-contact {
+  width: 100%;
+  height: 445px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 52px 48px;
+}
+.card-contact h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #00985b;
+  text-align: center;
+  margin-bottom: 21px;
+}
+.form-control {
+  background: #c4c4c4;
+  height: 75px !important;
+  border-radius: 0;
+}
+
+.form-floating label {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #717171;
+}
+.button-kontak {
+  width: 100%;
+  height: 75px;
+  background: #00985b;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+/* footer  */
+.layanan-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.layanan-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
