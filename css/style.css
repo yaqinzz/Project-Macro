@@ -280,12 +280,36 @@ span.sub-title {
 }
 
 /* footer  */
+.footer {
+  padding: 0;
+}
 .layanan-footer {
   display: flex;
   justify-content: space-between;
+  padding: 50px 0;
 }
 .layanan-footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.layanan-footer a {
+  text-decoration: none;
+  color: #000000;
+}
+.layanan-footer h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.credit {
+  background-color: #d6a62e;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.credit p {
+  color: #ffffff;
+  margin: 0;
 }
