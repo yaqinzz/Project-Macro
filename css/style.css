@@ -100,9 +100,6 @@ body {
   font-weight: 700;
   color: #d6a62e;
 }
-.hero-tagline a img {
-  margin-top: 20px;
-}
 
 /* service section */
 #service {
@@ -292,6 +289,8 @@ span.sub-title {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .layanan-footer a {
@@ -312,4 +311,5 @@ span.sub-title {
 .credit p {
   color: #ffffff;
   margin: 0;
+  font-size: 16px;
 }
