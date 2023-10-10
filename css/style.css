@@ -8,6 +8,14 @@ body {
 .navbar {
   background: #ffffff;
   z-index: 3;
+  
+}
+
+
+
+.navbar-nav{
+  margin-left: 300px;
+  font-size: 14px;
 }
 * {
   z-index: 2;
@@ -25,13 +33,19 @@ body {
   font-weight: 700;
 }
 
+.btlog{
+  margin-left: 160px;
+  
+}
+
 .button-secondary {
   height: 40px;
-  width: 133px;
+  width: 120px;
+  padding-top: 0.6rem;
   background-color: #d6a62e;
-  border-radius: 15px;
+  border-radius: 16px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   border: none;
   color: #ffffff;
   text-decoration: none;
@@ -41,7 +55,7 @@ body {
 }
 .button-primary {
   height: 40px;
-  width: 133px;
+  width: 80px;
   background-color: transparent;
   border-radius: 15px;
   font-size: 16px;
