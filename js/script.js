@@ -1,1 +1,1 @@
-function habsnnjji info ngopi
+function habsnnjji info ngopi lurd
