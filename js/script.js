@@ -1,1 +1,1 @@
-function habsnnjji info ngopi
+Info ngopi mazehhh
