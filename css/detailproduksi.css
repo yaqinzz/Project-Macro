@@ -1,0 +1,106 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #e8e8e8;
+}
+
+/*crumb*/
+.breadcrumb{
+   background-color:white ;
+   margin-top: 25px;
+   padding: 10px 10px;
+}
+
+/*produk detail*/
+  .row-product {
+    background-color: #ffffff;
+    margin: 0;
+    padding-left: 80px;
+    padding-top: 20px;
+    
+  }
+
+
+
+.desc-product{
+    margin-left: 60px;
+    width: 500px;
+}
+.desc-product h4{
+    font-weight: 500;
+}
+
+/*deskripsi produk*/
+
+.container-konten{
+    margin-bottom: 100px;
+}
+
+
+/*review*/
+
+.profile{
+    width: 55px;
+    height: 55px;
+    margin-top: 10px 25px;
+    margin-left: 20px;
+}
+
+.test{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.profile-desc p
+{
+
+font-size: 14px;
+}
+
+.review{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.deskripsi{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+  /* footer  */
+.footer {
+    padding: 0;
+  }
+  .layanan-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 12px;
+  }
+  .layanan-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .layanan-footer a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .layanan-footer h6 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .credit {
+    background-color: #d6a62e;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .credit p {
+    color: #ffffff;
+    margin: 0;
+    font-size: 16px;
+  }
+  
