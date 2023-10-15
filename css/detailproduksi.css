@@ -10,6 +10,31 @@ body {
    padding: 10px 10px;
 }
 
+.kembali{
+  padding: 20px 75px;
+  background-color: #ffffff;
+  height: 50px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  width: 1093px;
+  margin-left: 10px;
+  }
+  
+  .ico{
+    margin-right: 10px;
+  }
+  
+  .kembali h2{
+    font-size: 25px;
+  }
+
+  .kembali a{
+    color: #000;
+    text-decoration: none;
+    padding-top: 4px;
+  }
+
 /*produk detail*/
   .row-product {
     background-color: #ffffff;
@@ -42,7 +67,7 @@ body {
     width: 55px;
     height: 55px;
     margin-top: 10px 25px;
-    margin-left: 20px;
+    margin-left: 6px;
 }
 
 .test{
