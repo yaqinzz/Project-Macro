@@ -1,0 +1,75 @@
+.video-container
+ {
+    position: absolute;
+    width: 776px;
+    height: 488.63px;
+    left: 130px;
+    top: 93px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+/* Tinggalkan Posisi Manajer dan Memilih Jadi Peternak Ayam Di Kampung */
+.job-title
+{
+  position: absolute;
+  width: 748px;
+  height: 80px;
+  left: 160px;
+  top: 594px;
+  font-size: 20px;
+  line-height: 28px; 
+  font-weight: 600;
+  white-space: normal;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.profile-container
+{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.profile
+{
+position: absolute;
+left: 10.5%;
+right: 88.14%;
+top: 57.35%;
+bottom: 40.95%;
+padding-top: 280px;
+padding-left: 10px;
+}
+
+.nama-channel
+{
+width: 72px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+
+
+
+
