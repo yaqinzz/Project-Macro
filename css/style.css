@@ -120,7 +120,7 @@ span.sub-title {
   width: 100%;
   height: 313px;
   border-radius: 5px;
-  background: linear-gradient(160deg, #048853, #413d3d);
+  background: #d6a62e;
   padding: 40px;
   margin-bottom: 20px;
   box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
@@ -152,7 +152,7 @@ span.sub-title {
 /* misi */
 
 #misi {
-  background-color: #ba912b;
+  background-color: #fff;
   padding: 100px 0;
 }
 .card-misi {
@@ -164,14 +164,14 @@ span.sub-title {
   /* box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05); */
 }
 .misi h2 {
-  font-size: 40px;
-  font-weight: 500;
-  color: #fff;
-  padding-bottom: 20px;
+  font-size: 38px;
+  font-weight: 600;
+  color: #048853;
+  padding-bottom: 10px;
 }
 .misi .sub-title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 0 70px;
   color: #000000;
 }

@@ -1,0 +1,230 @@
+.backPage {
+  padding-top: 80px;
+}
+.backPage a {
+  color: #717171;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+.listVideo {
+  margin-bottom: 100px;
+}
+
+.listVideo h2 {
+  color: #000;
+  font-size: 40x;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 50px;
+}
+.listVideo p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.listVideo span {
+  color: #717171;
+  font-weight: 400;
+}
+
+.dropdown {
+  overflow: hidden;
+}
+
+.dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+.video {
+  margin-top: 35px;
+}
+.video img {
+  border-radius: 15px;
+}
+.titleVideo a {
+  text-decoration: none;
+}
+.titleVideo a p {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.tag a {
+  text-decoration: none;
+  color: #048853;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 15px;
+  border: 1px solid #048853;
+  background: rgba(255, 255, 255, 0);
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.video i {
+  border-radius: 100px;
+  padding: 20px;
+  background: #00985b;
+  color: #d9d9d9;
+  font-size: 30px;
+}
+.video svg {
+  margin-right: 6px;
+}
+.video p {
+  color: #000;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+input[type="text"] {
+  width: 400px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 50px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("../img/icon\ search.png");
+  background-position: 360px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.sidePage {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+.sidePage span {
+  color: #717171;
+  font-weight: 400;
+}
+.sidePage p {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: column; /* Mengubah tampilan menjadi vertikal */
+}
+
+.tag-container .tag {
+  flex-wrap: wrap; /* Agar tag tetap wrap pada lebar tertentu */
+}
+
+.tag-container .mb-1 {
+  display: none; /* Sembunyikan semua tag awalnya */
+}
+
+.tag-container .mb-1.active {
+  display: inline-block; /* Tampilkan tag yang aktif */
+}
+.klik {
+  margin-top: 10px;
+}
+.klik svg {
+  color: #000;
+  font-size: 12px;
+}
+.klik p {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.upload {
+  padding-left: 20px;
+  border-radius: 15px;
+  background: #d6d46d;
+  width: 400px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.upload h6 {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.upload p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.upload button {
+  width: 145px;
+  height: 45px;
+  border-radius: 15px;
+  background: rgba(214, 166, 46, 0.8);
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 15px;
+}
+.hiden {
+  display: none;
+}
