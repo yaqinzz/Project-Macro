@@ -1,75 +1,132 @@
-.video-container
- {
-    position: absolute;
-    width: 776px;
-    height: 488.63px;
-    left: 130px;
-    top: 93px;
-    padding-top: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
-
+.banner {
+  padding-top: 155px;
+  background-color: #fff;
 }
-/* Tinggalkan Posisi Manajer dan Memilih Jadi Peternak Ayam Di Kampung */
-.job-title
+.dasboard img {
+  margin-bottom: 100px;
+}
+.dasboard h6 {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+
+
+.title h3 {
+  color: #000;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.title {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title a {
+  text-decoration: none;
+  color: #00985b;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.video {
+  background: #fff;
+  padding-bottom: 20px;
+}
+.conta
 {
+  width: 1348px; /* Mengatur lebar menjadi 1348 piksel */
+  height: 1500px; /* Mengatur tinggi menjadi 809 piksel */
+}
+.rectangle-92 {
   position: absolute;
-  width: 748px;
-  height: 80px;
-  left: 160px;
-  top: 594px;
-  font-size: 20px;
-  line-height: 28px; 
-  font-weight: 600;
-  white-space: normal;
-  display: flex;
-  align-items: center;
-  color: #000000;
+  width: 660px;
+  height: 105px;
+  top: 620px;
+  background: #D9D9D9;
+  border-radius: 15px;
 }
 
-.profile-container
-{
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between;
+.text-content {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000;
+  padding: 10px;
+  text-align: justify;
 }
-.profile
-{
-position: absolute;
-left: 10.5%;
-right: 88.14%;
-top: 57.35%;
-bottom: 40.95%;
-padding-top: 280px;
-padding-left: 10px;
-}
-
-.nama-channel
-{
-width: 72px;
-height: 18px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-
-color: #000000;
+.bold-text {
+  font-weight: bold;
 }
 
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+.thumbnail {
+  margin-top: 35px;
+  width: 1140px;
+  height: 800;
 }
 
+.thumbnail img {
+  border-radius: 15px;
+}
+.titleVideo a {
+  text-decoration: none;
+}
+.titleVideo a p {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
 
+.tag a {
+  text-decoration: none;
+  color: #048853;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 15px;
+  border: 1px solid #048853;
+  background: rgba(255, 255, 255, 0);
+  padding: 5px;
+}
 
+.thumbnail i {
+  border-radius: 100px;
+  padding: 20px;
+  background: #00985b;
+  color: #d9d9d9;
+  font-size: 30px;
+}
+.thumbnail svg {
+  margin-right: 6px;
+}
+.thumbnail p {
+  color: #000;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px;
+}
+.small-text {
+  font-size: 12px; /* Ukuran font kecil */
+}
 
-
-
-
+.gray-text {
+  color: #888; /* Warna abu-abu, Anda dapat mengganti kode warna sesuai preferensi Anda */
+}
