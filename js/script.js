@@ -41,21 +41,3 @@ toggleButton.addEventListener("click", () => {
 function register() {
   window.location.href = "../Auth/register.html";
 }
-const loadMoreButton = document.getElementById("load-more-button");
-const itemContainer = document.getElementById("item-container");
-const itemsToDisplay = 4; // Jumlah item yang ditampilkan setiap kali "Load More" diklik
-let currentVisible = 0; // Jumlah item yang sedang ditampilkan
-
-loadMoreButton.addEventListener("click", function () {
-  const hiddenItems = document.querySelectorAll(".titleVideo.hidden");
-
-  for (let i = 0; i < itemsToDisplay; i++) {
-    if (hiddenItems[currentVisible]) {
-      hiddenItems[currentVisible].classList.remove("hidden");
-      currentVisible++;
-    } else {
-      loadMoreButton.disabled = true; // Semua item telah ditampilkan
-      break;
-    }
-  }
-});
